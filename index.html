@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Note</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="note.css">
+</head>
+<body>
+    
+<div class="container">
+<!--Header-->
+<header>
+<div class="headwrap">
+<div class="home"><i class="fa fa-home"></i>Home</div>
+<div class="option"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+<ul class="options">
+<li><i class="fa fa-filter" aria-hidden="true"></i>Sort <select id="sort">
+<option value="byName">By Name</option>
+<option value="category">By Category</option>
+</select></li>
+<li><i class="deleteall fa fa-trash" aria-hidden="true"></i> delete all</li>
+</ul>
+</div>
+</header>
+<!--Header End-->
+
+
+<!--Notes List-->
+<div class="note">
+<ul>
+<h5>My Notes</h5>
+</ul> 
+
+
+<!--New Notes-->
+<center>
+<div class="addNote">
+
+<div class="text">
+<textarea placeholder="Write Something Here" cols="30" rows="10"></textarea>
+</div>
+
+
+</div>
+
+<div class="add_option">
+<label for="category">Choose Category</label>
+<select class="select" id="category">
+<option value="study">study</option>
+<option value="business">business</option>
+<option value="family">family</option>
+<option value="other">other</option>
+</select>
+</div>
+
+
+</center>
+
+<!--Add New Note Button-->
+<div class="add">
+<div class="sign"><i class="fa fa-plus"></i></div>
+</div>
+
+
+
+
+
+<!--Add New Note Button-->
+<!-- <div class="add">
+<div class="sign"><i class="fa fa-plus"></i></div>
+</div> -->
+<!--End of Note Tag-->
+</div>
+<!--Note List End-->
+
+
+<footer>
+<div class="author">Build with <i class="fa fa-heart like" aria-hidden="true"></i>
+and Hot <i class="fa fa-coffee like" aria-hidden="true"></i> By Flexible
+</div>
+</footer>
+
+
+<!--Container End-->
+</div>
+
+    <script src="note.js"></script>
+</body>
+</html>
